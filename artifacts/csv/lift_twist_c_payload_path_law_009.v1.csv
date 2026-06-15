@@ -1,0 +1,5 @@
+state,b,r,observed_c_key,predicted_c_key,predicted_offsets,observed_c_path,predicted_c_path,observed_c_values,predicted_c_values,all_c_payload_matches
+O0,0,0,11,11,0 6 3 0,11 2 14 11,11 2 14 11,2 11 14,2 11 14,1
+O1,0,1,13,13,0 3 12 0,13 1 10 13,13 1 10 13,1 10 13,1 10 13,1
+B0,1,0,2,2,0 3 13 0,2 5 0 2,2 5 0 2,0 2 5,0 2 5,1
+B1,1,1,4,4,0 1 13 0,4 5 2 4,4 5 2 4,2 4 5,2 4 5,1
