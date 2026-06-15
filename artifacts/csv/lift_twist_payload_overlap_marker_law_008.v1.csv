@@ -1,0 +1,5 @@
+state,shell_bit,rank_bit,observed_overlap,predicted_overlap,observed_overlap_count,predicted_overlap_count,overlap_set_match,overlap_count_match
+O0,0,0,none,none,0,0,1,1
+O1,0,1,13,13,1,1,1,1
+B0,1,0,0 2,0 2,2,2,1,1
+B1,1,1,2,2,1,1,1,1
