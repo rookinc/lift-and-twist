@@ -1,0 +1,436 @@
+{
+  "actual_selected_indices": [
+    1,
+    6,
+    8,
+    15
+  ],
+  "anchor_cols": [
+    {
+      "derived_rank": 0,
+      "derived_shell": "branch",
+      "derived_state": "B0",
+      "observed_state": "B0",
+      "payload": {
+        "anchor_nodes": [
+          "[0,4]",
+          "[2,17]",
+          "[8,18]"
+        ],
+        "anchor_path": [
+          "[0,4]",
+          "[2,17]",
+          "[8,18]",
+          "[0,4]"
+        ],
+        "anchor_sum_mod15": 4,
+        "residues": [
+          0,
+          2,
+          3,
+          4,
+          8
+        ]
+      },
+      "rank_key": 4,
+      "visible_index": 0
+    },
+    {
+      "derived_rank": 0,
+      "derived_shell": "ordinary",
+      "derived_state": "O0",
+      "observed_state": "O0",
+      "payload": {
+        "anchor_nodes": [
+          "[23,24]",
+          "[7,12]",
+          "[4,5]"
+        ],
+        "anchor_path": [
+          "[23,24]",
+          "[7,12]",
+          "[4,5]",
+          "[23,24]"
+        ],
+        "anchor_sum_mod15": 0,
+        "residues": [
+          4,
+          5,
+          7,
+          8,
+          9,
+          12
+        ]
+      },
+      "rank_key": 0,
+      "visible_index": 1
+    },
+    {
+      "derived_rank": 1,
+      "derived_shell": "ordinary",
+      "derived_state": "O1",
+      "observed_state": "O1",
+      "payload": {
+        "anchor_nodes": [
+          "[28,29]",
+          "[0,2]",
+          "[4,9]"
+        ],
+        "anchor_path": [
+          "[28,29]",
+          "[0,2]",
+          "[4,9]",
+          "[28,29]"
+        ],
+        "anchor_sum_mod15": 12,
+        "residues": [
+          0,
+          2,
+          4,
+          9,
+          13,
+          14
+        ]
+      },
+      "rank_key": 12,
+      "visible_index": 2
+    },
+    {
+      "derived_rank": 1,
+      "derived_shell": "branch",
+      "derived_state": "B1",
+      "observed_state": "B1",
+      "payload": {
+        "anchor_nodes": [
+          "[7,10]",
+          "[8,18]",
+          "[13,17]"
+        ],
+        "anchor_path": [
+          "[7,10]",
+          "[8,18]",
+          "[13,17]",
+          "[7,10]"
+        ],
+        "anchor_sum_mod15": 13,
+        "residues": [
+          2,
+          3,
+          7,
+          8,
+          10,
+          13
+        ]
+      },
+      "rank_key": 13,
+      "visible_index": 3
+    }
+  ],
+  "audit_id": "005",
+  "boundary": "This reconstructs hidden state labels from the copied reduced-universe payloads. It does not derive the payloads themselves from one local answer cell, does not derive the reduced 16-candidate universe from native provenance, and does not close Gap A.",
+  "c_rows": [
+    {
+      "derived_rank": 0,
+      "derived_shell": "ordinary",
+      "derived_state": "O0",
+      "observed_state": "O0",
+      "payload": {
+        "c_path": [
+          11,
+          2,
+          14,
+          11
+        ],
+        "c_sum_mod15": 12,
+        "c_values": [
+          2,
+          11,
+          14
+        ]
+      },
+      "rank_key": 11,
+      "visible_index": 0
+    },
+    {
+      "derived_rank": 1,
+      "derived_shell": "ordinary",
+      "derived_state": "O1",
+      "observed_state": "O1",
+      "payload": {
+        "c_path": [
+          13,
+          1,
+          10,
+          13
+        ],
+        "c_sum_mod15": 9,
+        "c_values": [
+          1,
+          10,
+          13
+        ]
+      },
+      "rank_key": 13,
+      "visible_index": 1
+    },
+    {
+      "derived_rank": 0,
+      "derived_shell": "branch",
+      "derived_state": "B0",
+      "observed_state": "B0",
+      "payload": {
+        "c_path": [
+          2,
+          5,
+          0,
+          2
+        ],
+        "c_sum_mod15": 7,
+        "c_values": [
+          0,
+          2,
+          5
+        ]
+      },
+      "rank_key": 2,
+      "visible_index": 2
+    },
+    {
+      "derived_rank": 1,
+      "derived_shell": "branch",
+      "derived_state": "B1",
+      "observed_state": "B1",
+      "payload": {
+        "c_path": [
+          4,
+          5,
+          2,
+          4
+        ],
+        "c_sum_mod15": 11,
+        "c_values": [
+          2,
+          4,
+          5
+        ]
+      },
+      "rank_key": 4,
+      "visible_index": 3
+    }
+  ],
+  "checks": {
+    "all_candidate_matches_actual": true,
+    "anchor_state_matches_observed": true,
+    "c_state_matches_observed": true,
+    "derived_anchor_order_matches_observed": true,
+    "derived_c_order_matches_observed": true,
+    "derived_diagonal_matches_actual": true,
+    "project22_003_theorem_pass": true,
+    "project22_004_theorem_pass": true
+  },
+  "claim": "The hidden four states used by Lift & Twist can be reconstructed from readout payload markers. On the C side, branch states are exactly those whose C payload contains 5, ranked by C entry. On the anchor side, branch states are exactly those whose anchor payload contains [8,18], ranked by anchor_sum_mod15. These payload-derived states reproduce the two readout orders and recover the selected diagonal [1,6,8,15].",
+  "derived_anchor_order": [
+    "B0",
+    "O0",
+    "O1",
+    "B1"
+  ],
+  "derived_c_order": [
+    "O0",
+    "O1",
+    "B0",
+    "B1"
+  ],
+  "derived_diagonal_indices": [
+    1,
+    6,
+    8,
+    15
+  ],
+  "generated_universe_from_payload_states": [
+    {
+      "a_col": 0,
+      "actual_selected": false,
+      "c_row": 0,
+      "candidate_index": 0,
+      "derived_anchor_state": "B0",
+      "derived_c_state": "O0",
+      "hidden_diagonal_from_payload_states": false,
+      "matches_actual": true
+    },
+    {
+      "a_col": 1,
+      "actual_selected": true,
+      "c_row": 0,
+      "candidate_index": 1,
+      "derived_anchor_state": "O0",
+      "derived_c_state": "O0",
+      "hidden_diagonal_from_payload_states": true,
+      "matches_actual": true
+    },
+    {
+      "a_col": 2,
+      "actual_selected": false,
+      "c_row": 0,
+      "candidate_index": 2,
+      "derived_anchor_state": "O1",
+      "derived_c_state": "O0",
+      "hidden_diagonal_from_payload_states": false,
+      "matches_actual": true
+    },
+    {
+      "a_col": 3,
+      "actual_selected": false,
+      "c_row": 0,
+      "candidate_index": 3,
+      "derived_anchor_state": "B1",
+      "derived_c_state": "O0",
+      "hidden_diagonal_from_payload_states": false,
+      "matches_actual": true
+    },
+    {
+      "a_col": 0,
+      "actual_selected": false,
+      "c_row": 1,
+      "candidate_index": 4,
+      "derived_anchor_state": "B0",
+      "derived_c_state": "O1",
+      "hidden_diagonal_from_payload_states": false,
+      "matches_actual": true
+    },
+    {
+      "a_col": 1,
+      "actual_selected": false,
+      "c_row": 1,
+      "candidate_index": 5,
+      "derived_anchor_state": "O0",
+      "derived_c_state": "O1",
+      "hidden_diagonal_from_payload_states": false,
+      "matches_actual": true
+    },
+    {
+      "a_col": 2,
+      "actual_selected": true,
+      "c_row": 1,
+      "candidate_index": 6,
+      "derived_anchor_state": "O1",
+      "derived_c_state": "O1",
+      "hidden_diagonal_from_payload_states": true,
+      "matches_actual": true
+    },
+    {
+      "a_col": 3,
+      "actual_selected": false,
+      "c_row": 1,
+      "candidate_index": 7,
+      "derived_anchor_state": "B1",
+      "derived_c_state": "O1",
+      "hidden_diagonal_from_payload_states": false,
+      "matches_actual": true
+    },
+    {
+      "a_col": 0,
+      "actual_selected": true,
+      "c_row": 2,
+      "candidate_index": 8,
+      "derived_anchor_state": "B0",
+      "derived_c_state": "B0",
+      "hidden_diagonal_from_payload_states": true,
+      "matches_actual": true
+    },
+    {
+      "a_col": 1,
+      "actual_selected": false,
+      "c_row": 2,
+      "candidate_index": 9,
+      "derived_anchor_state": "O0",
+      "derived_c_state": "B0",
+      "hidden_diagonal_from_payload_states": false,
+      "matches_actual": true
+    },
+    {
+      "a_col": 2,
+      "actual_selected": false,
+      "c_row": 2,
+      "candidate_index": 10,
+      "derived_anchor_state": "O1",
+      "derived_c_state": "B0",
+      "hidden_diagonal_from_payload_states": false,
+      "matches_actual": true
+    },
+    {
+      "a_col": 3,
+      "actual_selected": false,
+      "c_row": 2,
+      "candidate_index": 11,
+      "derived_anchor_state": "B1",
+      "derived_c_state": "B0",
+      "hidden_diagonal_from_payload_states": false,
+      "matches_actual": true
+    },
+    {
+      "a_col": 0,
+      "actual_selected": false,
+      "c_row": 3,
+      "candidate_index": 12,
+      "derived_anchor_state": "B0",
+      "derived_c_state": "B1",
+      "hidden_diagonal_from_payload_states": false,
+      "matches_actual": true
+    },
+    {
+      "a_col": 1,
+      "actual_selected": false,
+      "c_row": 3,
+      "candidate_index": 13,
+      "derived_anchor_state": "O0",
+      "derived_c_state": "B1",
+      "hidden_diagonal_from_payload_states": false,
+      "matches_actual": true
+    },
+    {
+      "a_col": 2,
+      "actual_selected": false,
+      "c_row": 3,
+      "candidate_index": 14,
+      "derived_anchor_state": "O1",
+      "derived_c_state": "B1",
+      "hidden_diagonal_from_payload_states": false,
+      "matches_actual": true
+    },
+    {
+      "a_col": 3,
+      "actual_selected": true,
+      "c_row": 3,
+      "candidate_index": 15,
+      "derived_anchor_state": "B1",
+      "derived_c_state": "B1",
+      "hidden_diagonal_from_payload_states": true,
+      "matches_actual": true
+    }
+  ],
+  "inputs": {
+    "003": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/22-lift-and-twist/artifacts/json/lift_twist_two_readout_universe_003.v1.json",
+    "004": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/22-lift-and-twist/artifacts/json/lift_twist_readout_order_rule_004.v1.json"
+  },
+  "observed_anchor_order": [
+    "B0",
+    "O0",
+    "O1",
+    "B1"
+  ],
+  "observed_c_order": [
+    "O0",
+    "O1",
+    "B0",
+    "B1"
+  ],
+  "payload_state_rules": {
+    "anchor_rank_rule": "rank by ascending anchor_sum_mod15 within shell",
+    "anchor_shell_rule": "branch iff anchor payload contains node [8,18]; otherwise ordinary",
+    "c_rank_rule": "rank by ascending c_entry within shell",
+    "c_shell_rule": "branch iff c_values contains 5; otherwise ordinary"
+  },
+  "status": "lift_twist_payload_state_reconstruction_recorded",
+  "theorem_pass": true
+}
