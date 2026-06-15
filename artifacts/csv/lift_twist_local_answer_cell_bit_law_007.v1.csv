@@ -1,0 +1,5 @@
+state,shell_bit,rank_bit,observed_c_row,predicted_c_row,observed_anchor_col,predicted_anchor_col,observed_selected_candidate_index,predicted_selected_candidate_index,observed_c_key,predicted_c_key,observed_anchor_key,predicted_anchor_key,all_header_matches
+O0,0,0,0,0,1,1,1,1,11,11,0,0,1
+O1,0,1,1,1,2,2,6,6,13,13,12,12,1
+B0,1,0,2,2,0,0,8,8,2,2,4,4,1
+B1,1,1,3,3,3,3,15,15,4,4,13,13,1
