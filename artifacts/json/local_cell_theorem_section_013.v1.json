@@ -1,0 +1,15 @@
+{
+  "audit_id": "013",
+  "boundary": "The theorem is local to the four-state reduced target and does not close Gap A.",
+  "claim": "Wrote the local Lift & Twist answer-cell theorem into the paper.",
+  "inputs": {
+    "011": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/22-lift-and-twist/artifacts/json/lift_twist_local_answer_cell_generator_theorem_011.v1.json",
+    "012": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/22-lift-and-twist/artifacts/json/lift_twist_anchor_node_path_geometry_012.v1.json"
+  },
+  "main": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/22-lift-and-twist/paper/main.tex",
+  "main_contains_section": true,
+  "project22_011_theorem_pass": true,
+  "project22_012_theorem_pass": true,
+  "section": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/22-lift-and-twist/paper/sections/08_local_answer_cell_theorem.tex",
+  "status": "local_cell_theorem_section_recorded"
+}
