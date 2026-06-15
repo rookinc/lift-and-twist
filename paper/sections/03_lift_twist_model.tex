@@ -1,0 +1,44 @@
+\section{The Lift \& Twist model}
+
+The visible \(4\times4\) selector is not best understood as a scalar threshold.  It is a diagonal identity test seen through two different readout orders.
+
+The C-side visible order is
+\[
+    O0,\ O1,\ B0,\ B1,
+\]
+where \(O\) denotes the ordinary shell, \(B\) denotes the branch shell, and the suffix denotes the shell rank.
+
+The anchor-side visible order is
+\[
+    B0,\ O0,\ O1,\ B1.
+\]
+
+Thus the hidden identity rule
+\[
+    O0\mapsto O0,\quad
+    O1\mapsto O1,\quad
+    B0\mapsto B0,\quad
+    B1\mapsto B1
+\]
+appears in visible coordinates as
+\[
+    0\mapsto 1,\quad
+    1\mapsto 2,\quad
+    2\mapsto 0,\quad
+    3\mapsto 3.
+\]
+
+Equivalently, the visible permutation is
+\[
+    [1,2,0,3] = (0\ 1\ 2)(3).
+\]
+
+\begin{definition}[Lift \& Twist]
+Lift \& Twist is the coordinate motion that lifts visible C-cycle and anchor-cycle data into native shell/rank coordinates, applies the identity lock
+\[
+    \mathrm{same\ shell} \wedge \mathrm{same\ rank},
+\]
+and returns the result to the visible register order, where it appears as a three-cycle plus one fixed branch state.
+\end{definition}
+
+In this reading, the twist is not decoration.  It is the cost of returning lifted shell/rank identity to the visible anchor ordering.

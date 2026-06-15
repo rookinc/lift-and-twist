@@ -1,0 +1,728 @@
+{
+  "anchor_col_count": 4,
+  "anchor_cols": [
+    {
+      "a_key": "(('XY', '[0,4]', '[2,17]'), ('IW', '[8,18]', '[0,4]'), ('ZT', '[2,17]', '[8,18]'))",
+      "anchor_edges": [
+        [
+          "XY",
+          "[0,4]",
+          "[2,17]"
+        ],
+        [
+          "IW",
+          "[8,18]",
+          "[0,4]"
+        ],
+        [
+          "ZT",
+          "[2,17]",
+          "[8,18]"
+        ]
+      ],
+      "anchor_nodes": [
+        "[0,4]",
+        "[2,17]",
+        "[8,18]"
+      ],
+      "anchor_path": [
+        "[0,4]",
+        "[2,17]",
+        "[8,18]",
+        "[0,4]"
+      ],
+      "anchor_sum_mod15": 4,
+      "col_index": 0,
+      "column_count": 6,
+      "columns": [
+        0,
+        2,
+        4,
+        8,
+        17,
+        18
+      ],
+      "has_branch_anchor_8_18": true,
+      "residues": [
+        0,
+        2,
+        3,
+        4,
+        8
+      ],
+      "selected_c_row": 2
+    },
+    {
+      "a_key": "(('XY', '[23,24]', '[7,12]'), ('IW', '[4,5]', '[23,24]'), ('ZT', '[7,12]', '[4,5]'))",
+      "anchor_edges": [
+        [
+          "XY",
+          "[23,24]",
+          "[7,12]"
+        ],
+        [
+          "IW",
+          "[4,5]",
+          "[23,24]"
+        ],
+        [
+          "ZT",
+          "[7,12]",
+          "[4,5]"
+        ]
+      ],
+      "anchor_nodes": [
+        "[23,24]",
+        "[7,12]",
+        "[4,5]"
+      ],
+      "anchor_path": [
+        "[23,24]",
+        "[7,12]",
+        "[4,5]",
+        "[23,24]"
+      ],
+      "anchor_sum_mod15": 0,
+      "col_index": 1,
+      "column_count": 6,
+      "columns": [
+        4,
+        5,
+        7,
+        12,
+        23,
+        24
+      ],
+      "has_branch_anchor_8_18": false,
+      "residues": [
+        4,
+        5,
+        7,
+        8,
+        9,
+        12
+      ],
+      "selected_c_row": 0
+    },
+    {
+      "a_key": "(('XY', '[28,29]', '[0,2]'), ('IW', '[4,9]', '[28,29]'), ('ZT', '[0,2]', '[4,9]'))",
+      "anchor_edges": [
+        [
+          "XY",
+          "[28,29]",
+          "[0,2]"
+        ],
+        [
+          "IW",
+          "[4,9]",
+          "[28,29]"
+        ],
+        [
+          "ZT",
+          "[0,2]",
+          "[4,9]"
+        ]
+      ],
+      "anchor_nodes": [
+        "[28,29]",
+        "[0,2]",
+        "[4,9]"
+      ],
+      "anchor_path": [
+        "[28,29]",
+        "[0,2]",
+        "[4,9]",
+        "[28,29]"
+      ],
+      "anchor_sum_mod15": 12,
+      "col_index": 2,
+      "column_count": 6,
+      "columns": [
+        0,
+        2,
+        4,
+        9,
+        28,
+        29
+      ],
+      "has_branch_anchor_8_18": false,
+      "residues": [
+        0,
+        2,
+        4,
+        9,
+        13,
+        14
+      ],
+      "selected_c_row": 1
+    },
+    {
+      "a_key": "(('XY', '[7,10]', '[8,18]'), ('IW', '[13,17]', '[7,10]'), ('ZT', '[8,18]', '[13,17]'))",
+      "anchor_edges": [
+        [
+          "XY",
+          "[7,10]",
+          "[8,18]"
+        ],
+        [
+          "IW",
+          "[13,17]",
+          "[7,10]"
+        ],
+        [
+          "ZT",
+          "[8,18]",
+          "[13,17]"
+        ]
+      ],
+      "anchor_nodes": [
+        "[7,10]",
+        "[8,18]",
+        "[13,17]"
+      ],
+      "anchor_path": [
+        "[7,10]",
+        "[8,18]",
+        "[13,17]",
+        "[7,10]"
+      ],
+      "anchor_sum_mod15": 13,
+      "col_index": 3,
+      "column_count": 6,
+      "columns": [
+        7,
+        8,
+        10,
+        13,
+        17,
+        18
+      ],
+      "has_branch_anchor_8_18": true,
+      "residues": [
+        2,
+        3,
+        7,
+        8,
+        10,
+        13
+      ],
+      "selected_c_row": 3
+    }
+  ],
+  "audit_id": "024",
+  "boundary": "This audit does not derive the permutation. It identifies the reduced 4 x 4 selection shape that a future native generator must explain.",
+  "c_row_count": 4,
+  "c_rows": [
+    {
+      "c_key": "(('XY', 11, 2), ('IW', 2, 14), ('ZT', 14, 11))",
+      "c_max": 14,
+      "c_min": 2,
+      "c_path": [
+        11,
+        2,
+        14,
+        11
+      ],
+      "c_span": 12,
+      "c_sum_mod15": 12,
+      "c_values": [
+        2,
+        11,
+        14
+      ],
+      "row_index": 0,
+      "selected_anchor_col": 1,
+      "transitions": [
+        [
+          "XY",
+          11,
+          2
+        ],
+        [
+          "IW",
+          2,
+          14
+        ],
+        [
+          "ZT",
+          14,
+          11
+        ]
+      ]
+    },
+    {
+      "c_key": "(('XY', 13, 1), ('IW', 1, 10), ('ZT', 10, 13))",
+      "c_max": 13,
+      "c_min": 1,
+      "c_path": [
+        13,
+        1,
+        10,
+        13
+      ],
+      "c_span": 12,
+      "c_sum_mod15": 9,
+      "c_values": [
+        1,
+        10,
+        13
+      ],
+      "row_index": 1,
+      "selected_anchor_col": 2,
+      "transitions": [
+        [
+          "XY",
+          13,
+          1
+        ],
+        [
+          "IW",
+          1,
+          10
+        ],
+        [
+          "ZT",
+          10,
+          13
+        ]
+      ]
+    },
+    {
+      "c_key": "(('XY', 2, 5), ('IW', 5, 0), ('ZT', 0, 2))",
+      "c_max": 5,
+      "c_min": 0,
+      "c_path": [
+        2,
+        5,
+        0,
+        2
+      ],
+      "c_span": 5,
+      "c_sum_mod15": 7,
+      "c_values": [
+        0,
+        2,
+        5
+      ],
+      "row_index": 2,
+      "selected_anchor_col": 0,
+      "transitions": [
+        [
+          "XY",
+          2,
+          5
+        ],
+        [
+          "IW",
+          5,
+          0
+        ],
+        [
+          "ZT",
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "c_key": "(('XY', 4, 5), ('IW', 5, 2), ('ZT', 2, 4))",
+      "c_max": 5,
+      "c_min": 2,
+      "c_path": [
+        4,
+        5,
+        2,
+        4
+      ],
+      "c_span": 3,
+      "c_sum_mod15": 11,
+      "c_values": [
+        2,
+        4,
+        5
+      ],
+      "row_index": 3,
+      "selected_anchor_col": 3,
+      "transitions": [
+        [
+          "XY",
+          4,
+          5
+        ],
+        [
+          "IW",
+          5,
+          2
+        ],
+        [
+          "ZT",
+          2,
+          4
+        ]
+      ]
+    }
+  ],
+  "candidate_count": 16,
+  "candidate_index_matrix": [
+    [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    [
+      "12",
+      "13",
+      "14",
+      "15"
+    ]
+  ],
+  "input_023": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/sharedB_16_candidate_selector_search_023.v1.json",
+  "interpretation": "The 16-candidate shared_B boundary is a 4 x 4 pairing problem: four C-cycles crossed with four twisted anchor-cycles. The observed selection picks one cell in each row and one cell in each column, so it is a permutation rather than a scalar threshold. In the recovered row/column order, the selected permutation is row -> col [1, 2, 0, 3]. This reframes the missing selector as a coupling/permutation between C-cycle phase and anchor-cycle phase.",
+  "is_permutation": true,
+  "permutation_cycle_lengths": [
+    3,
+    1
+  ],
+  "permutation_cycles": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3
+    ]
+  ],
+  "permutation_order": 3,
+  "selected_col_by_row": {
+    "0": 1,
+    "1": 2,
+    "2": 0,
+    "3": 3
+  },
+  "selected_count": 4,
+  "selected_pair_rows": [
+    {
+      "a_col": 1,
+      "anchor_nodes": [
+        "[23,24]",
+        "[7,12]",
+        "[4,5]"
+      ],
+      "anchor_path": [
+        "[23,24]",
+        "[7,12]",
+        "[4,5]",
+        "[23,24]"
+      ],
+      "anchor_residues": [
+        4,
+        5,
+        7,
+        8,
+        9,
+        12
+      ],
+      "anchor_sum_mod15": 0,
+      "c_path": [
+        11,
+        2,
+        14,
+        11
+      ],
+      "c_row": 0,
+      "c_sum_mod15": 12,
+      "c_values": [
+        2,
+        11,
+        14
+      ],
+      "c_values_intersection_anchor_residues": [],
+      "candidate_index": 1,
+      "has_branch_anchor_8_18": false
+    },
+    {
+      "a_col": 2,
+      "anchor_nodes": [
+        "[28,29]",
+        "[0,2]",
+        "[4,9]"
+      ],
+      "anchor_path": [
+        "[28,29]",
+        "[0,2]",
+        "[4,9]",
+        "[28,29]"
+      ],
+      "anchor_residues": [
+        0,
+        2,
+        4,
+        9,
+        13,
+        14
+      ],
+      "anchor_sum_mod15": 12,
+      "c_path": [
+        13,
+        1,
+        10,
+        13
+      ],
+      "c_row": 1,
+      "c_sum_mod15": 9,
+      "c_values": [
+        1,
+        10,
+        13
+      ],
+      "c_values_intersection_anchor_residues": [
+        13
+      ],
+      "candidate_index": 6,
+      "has_branch_anchor_8_18": false
+    },
+    {
+      "a_col": 0,
+      "anchor_nodes": [
+        "[0,4]",
+        "[2,17]",
+        "[8,18]"
+      ],
+      "anchor_path": [
+        "[0,4]",
+        "[2,17]",
+        "[8,18]",
+        "[0,4]"
+      ],
+      "anchor_residues": [
+        0,
+        2,
+        3,
+        4,
+        8
+      ],
+      "anchor_sum_mod15": 4,
+      "c_path": [
+        2,
+        5,
+        0,
+        2
+      ],
+      "c_row": 2,
+      "c_sum_mod15": 7,
+      "c_values": [
+        0,
+        2,
+        5
+      ],
+      "c_values_intersection_anchor_residues": [
+        0,
+        2
+      ],
+      "candidate_index": 8,
+      "has_branch_anchor_8_18": true
+    },
+    {
+      "a_col": 3,
+      "anchor_nodes": [
+        "[7,10]",
+        "[8,18]",
+        "[13,17]"
+      ],
+      "anchor_path": [
+        "[7,10]",
+        "[8,18]",
+        "[13,17]",
+        "[7,10]"
+      ],
+      "anchor_residues": [
+        2,
+        3,
+        7,
+        8,
+        10,
+        13
+      ],
+      "anchor_sum_mod15": 13,
+      "c_path": [
+        4,
+        5,
+        2,
+        4
+      ],
+      "c_row": 3,
+      "c_sum_mod15": 11,
+      "c_values": [
+        2,
+        4,
+        5
+      ],
+      "c_values_intersection_anchor_residues": [
+        2
+      ],
+      "candidate_index": 15,
+      "has_branch_anchor_8_18": true
+    }
+  ],
+  "selected_positions": [
+    {
+      "a_col": 1,
+      "c_row": 0,
+      "candidate_index": 1,
+      "cycle": [
+        [
+          "XY",
+          11,
+          2,
+          "[23,24]",
+          "[7,12]"
+        ],
+        [
+          "IW",
+          2,
+          14,
+          "[4,5]",
+          "[23,24]"
+        ],
+        [
+          "ZT",
+          14,
+          11,
+          "[7,12]",
+          "[4,5]"
+        ]
+      ]
+    },
+    {
+      "a_col": 2,
+      "c_row": 1,
+      "candidate_index": 6,
+      "cycle": [
+        [
+          "XY",
+          13,
+          1,
+          "[28,29]",
+          "[0,2]"
+        ],
+        [
+          "IW",
+          1,
+          10,
+          "[4,9]",
+          "[28,29]"
+        ],
+        [
+          "ZT",
+          10,
+          13,
+          "[0,2]",
+          "[4,9]"
+        ]
+      ]
+    },
+    {
+      "a_col": 0,
+      "c_row": 2,
+      "candidate_index": 8,
+      "cycle": [
+        [
+          "XY",
+          2,
+          5,
+          "[0,4]",
+          "[2,17]"
+        ],
+        [
+          "IW",
+          5,
+          0,
+          "[8,18]",
+          "[0,4]"
+        ],
+        [
+          "ZT",
+          0,
+          2,
+          "[2,17]",
+          "[8,18]"
+        ]
+      ]
+    },
+    {
+      "a_col": 3,
+      "c_row": 3,
+      "candidate_index": 15,
+      "cycle": [
+        [
+          "XY",
+          4,
+          5,
+          "[7,10]",
+          "[8,18]"
+        ],
+        [
+          "IW",
+          5,
+          2,
+          "[13,17]",
+          "[7,10]"
+        ],
+        [
+          "ZT",
+          2,
+          4,
+          "[8,18]",
+          "[13,17]"
+        ]
+      ]
+    }
+  ],
+  "selected_row_by_col": {
+    "0": 2,
+    "1": 0,
+    "2": 1,
+    "3": 3
+  },
+  "selection_matrix": [
+    [
+      ".",
+      "S",
+      ".",
+      "."
+    ],
+    [
+      ".",
+      ".",
+      "S",
+      "."
+    ],
+    [
+      "S",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      ".",
+      ".",
+      ".",
+      "S"
+    ]
+  ],
+  "status": "sharedB_selection_matrix_recorded"
+}

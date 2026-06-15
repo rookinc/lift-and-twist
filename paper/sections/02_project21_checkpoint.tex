@@ -1,0 +1,21 @@
+\section{Project 21 checkpoint}
+
+Project 21 proved the following reduced-universe selector theorem.
+
+\begin{theorem}[Reduced-universe shell-rank selector]
+Inside the 16-candidate shared\_B reduced universe, define the C shell by the native C-branch marker \(C=5\).  Define the anchor shell by the native branch anchor \([8,18]\).  Rank C-cycles within each shell by ascending C entry, equivalently \(XY.from\_C\).  Rank anchor-cycles within each shell by ascending \(anchor\_sum\_mod15\).  Then the selector
+\[
+    \mathrm{same\ shell} \wedge \mathrm{same\ rank}
+\]
+accepts exactly the four observed shared\_B cycles.
+\end{theorem}
+
+The certified profile is
+\[
+    actual = [1,6,8,15],
+    \qquad
+    predicted = [1,6,8,15],
+\]
+with no false positives and no misses.
+
+The Project 21 boundary is essential.  The theorem is conditional on the reduced 16-candidate universe.  It proves the selector inside that universe.  It does not derive the full role-labeled shared\_B edge universe, and it does not close Gap A.

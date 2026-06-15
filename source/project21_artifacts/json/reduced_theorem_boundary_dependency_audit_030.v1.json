@@ -1,0 +1,167 @@
+{
+  "audit_id": "030",
+  "boundary_pass": true,
+  "closed_item_count": 5,
+  "closed_items": [
+    {
+      "artifact": "026",
+      "claim": "C branch shell is derived from repeated C-junction marker C=5.",
+      "gap_status": "closed_inside_reduced_theorem",
+      "item": "C shell label",
+      "status": "derived_native_marker"
+    },
+    {
+      "artifact": "026",
+      "claim": "Anchor branch shell is derived from repeated branch anchor [8,18].",
+      "gap_status": "closed_inside_reduced_theorem",
+      "item": "Anchor shell label",
+      "status": "derived_native_marker"
+    },
+    {
+      "artifact": "027",
+      "claim": "C rows rank by ascending C entry / XY.from_C within shell.",
+      "gap_status": "closed_inside_reduced_theorem",
+      "item": "C shell rank",
+      "status": "derived_native_summary"
+    },
+    {
+      "artifact": "027",
+      "claim": "Anchor columns rank by ascending anchor_sum_mod15 within shell.",
+      "gap_status": "closed_inside_reduced_theorem",
+      "item": "Anchor shell rank",
+      "status": "derived_native_summary"
+    },
+    {
+      "artifact": "028",
+      "claim": "Same shell and same rank selects exactly [1,6,8,15] with no false positives or misses.",
+      "gap_status": "proved_inside_reduced_universe",
+      "item": "Reduced selector",
+      "status": "proved_exact"
+    }
+  ],
+  "current_best_statement": "The reduced-universe shell-rank selector is proved exactly inside the 16-candidate shared_B reduced universe. Native shell labels and native shell ranks select exactly the four observed shared_B cycles with no false positives and no misses.",
+  "dependency_ledger": [
+    {
+      "artifact": "022/024",
+      "claim": "Four observed C-cycles are used to form the reduced universe.",
+      "gap_status": "open_upstream_dependency",
+      "item": "Observed C-cycle support",
+      "status": "assumed_from_reduced_universe"
+    },
+    {
+      "artifact": "022/024",
+      "claim": "Four observed twisted anchor-cycles are used to form the reduced universe.",
+      "gap_status": "open_upstream_dependency",
+      "item": "Twisted anchor-cycle support",
+      "status": "assumed_from_reduced_universe"
+    },
+    {
+      "artifact": "022",
+      "claim": "C-cycle support crossed with twisted anchor-cycle support gives 16 candidates.",
+      "gap_status": "not_first_principles_native_generation",
+      "item": "Reduced 16-candidate universe",
+      "status": "bounded_construct"
+    },
+    {
+      "artifact": "026",
+      "claim": "C branch shell is derived from repeated C-junction marker C=5.",
+      "gap_status": "closed_inside_reduced_theorem",
+      "item": "C shell label",
+      "status": "derived_native_marker"
+    },
+    {
+      "artifact": "026",
+      "claim": "Anchor branch shell is derived from repeated branch anchor [8,18].",
+      "gap_status": "closed_inside_reduced_theorem",
+      "item": "Anchor shell label",
+      "status": "derived_native_marker"
+    },
+    {
+      "artifact": "027",
+      "claim": "C rows rank by ascending C entry / XY.from_C within shell.",
+      "gap_status": "closed_inside_reduced_theorem",
+      "item": "C shell rank",
+      "status": "derived_native_summary"
+    },
+    {
+      "artifact": "027",
+      "claim": "Anchor columns rank by ascending anchor_sum_mod15 within shell.",
+      "gap_status": "closed_inside_reduced_theorem",
+      "item": "Anchor shell rank",
+      "status": "derived_native_summary"
+    },
+    {
+      "artifact": "028",
+      "claim": "Same shell and same rank selects exactly [1,6,8,15] with no false positives or misses.",
+      "gap_status": "proved_inside_reduced_universe",
+      "item": "Reduced selector",
+      "status": "proved_exact"
+    },
+    {
+      "artifact": "boundary",
+      "claim": "The full edge universe remains upstream of this theorem.",
+      "gap_status": "Gap_A_open",
+      "item": "Full role-labeled shared_B edge universe",
+      "status": "not_derived"
+    }
+  ],
+  "inputs": {
+    "022": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/sharedB_candidate_universe_boundary_022.v1.json",
+    "026": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/native_shell_label_derivation_026.v1.json",
+    "027": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/native_shell_rank_derivation_027.v1.json",
+    "028": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/reduced_universe_shell_rank_theorem_028.v1.json",
+    "029": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/reduced_universe_theorem_section_029.v1.json",
+    "main_tex": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/paper/main.tex",
+    "section": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/paper/sections/07_reduced_universe_shell_rank_selector.tex"
+  },
+  "interpretation": "This audit confirms that the manuscript theorem section preserves the right boundary. The selector inside the reduced universe is theorem-grade; the reduced universe itself remains the open upstream generator problem.",
+  "main_has_section_input": true,
+  "open_item_count": 4,
+  "open_items": [
+    {
+      "artifact": "022/024",
+      "claim": "Four observed C-cycles are used to form the reduced universe.",
+      "gap_status": "open_upstream_dependency",
+      "item": "Observed C-cycle support",
+      "status": "assumed_from_reduced_universe"
+    },
+    {
+      "artifact": "022/024",
+      "claim": "Four observed twisted anchor-cycles are used to form the reduced universe.",
+      "gap_status": "open_upstream_dependency",
+      "item": "Twisted anchor-cycle support",
+      "status": "assumed_from_reduced_universe"
+    },
+    {
+      "artifact": "022",
+      "claim": "C-cycle support crossed with twisted anchor-cycle support gives 16 candidates.",
+      "gap_status": "not_first_principles_native_generation",
+      "item": "Reduced 16-candidate universe",
+      "status": "bounded_construct"
+    },
+    {
+      "artifact": "boundary",
+      "claim": "The full edge universe remains upstream of this theorem.",
+      "gap_status": "Gap_A_open",
+      "item": "Full role-labeled shared_B edge universe",
+      "status": "not_derived"
+    }
+  ],
+  "paper_missing_required_phrases": [],
+  "paper_required_phrases": [
+    "This result does not close Gap A.",
+    "conditional on the reduced 16-candidate universe",
+    "does not derive the full role-labeled shared\\_B edge universe",
+    "It proves the selector inside the reduced universe."
+  ],
+  "proof_checks": {
+    "022_observed_edge_filter_exact": true,
+    "022_reduced_boundary_has_16_candidates": true,
+    "026_shell_labels_derived": true,
+    "027_shell_ranks_derived": true,
+    "028_reduced_theorem_pass": true,
+    "029_section_written_from_028": true
+  },
+  "remaining_gap_a_problem": "Derive the reduced 16-candidate universe, or the full role-labeled shared_B edge universe, from native provenance without using observed C-cycle and anchor-cycle support as an upstream assumption.",
+  "status": "reduced_theorem_boundary_dependency_audit_recorded"
+}

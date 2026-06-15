@@ -1,0 +1,12 @@
+{
+  "boundary": "This project does not claim Gap A closure at creation.",
+  "copied_project21_artifact_missing_count": 0,
+  "copied_project21_artifact_success_count": 12,
+  "date": "2026-06-15",
+  "project": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/22-lift-and-twist",
+  "reduced_theorem": "Inside the 16-candidate reduced universe, same shell and same rank selects [1,6,8,15] exactly.",
+  "source_project": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator",
+  "status": "lift_and_twist_project_created",
+  "strong_conjecture": "The reduced 16-candidate universe is the Lift & Twist shadow of one local answer cell.",
+  "working_thesis": "The visible shared_B selector is a twisted projection of hidden shell/rank identity."
+}

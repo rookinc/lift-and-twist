@@ -1,0 +1,21 @@
+\section{Reduced Lift \& Twist theorem}
+
+The weak form of Lift \& Twist is already supported by the Project 21 artifacts.
+
+\begin{theorem}[Reduced Lift \& Twist straightening]
+In the Project 21 reduced shared\_B universe, the visible selector permutation \([1,2,0,3]\) is straightened to identity by the native shell/rank coordinates derived in artifacts 026 and 027.
+\end{theorem}
+
+\paragraph{Proof sketch.}
+Artifact 026 derives the shell labels.  On the C side, the branch shell is detected by the repeated C-junction marker \(C=5\).  On the anchor side, the branch shell is detected by the repeated branch anchor \([8,18]\).
+
+Artifact 027 derives shell ranks.  C cycles are ranked by ascending C entry.  Anchor cycles are ranked by ascending \(anchor\_sum\_mod15\).
+
+Artifact 028 verifies that same shell and same rank selects exactly candidates \(1,6,8,15\), with no false positives and no misses.  In hidden shell/rank coordinates, these are the four identity matches:
+\[
+    O0\to O0,\quad
+    O1\to O1,\quad
+    B0\to B0,\quad
+    B1\to B1.
+\]
+In visible coordinates, the same matches appear as the permutation \([1,2,0,3]\).

@@ -1,0 +1,2603 @@
+{
+  "anchor_items": [
+    {
+      "anchor_max_col": 18,
+      "anchor_max_residue": 8,
+      "anchor_min_col": 0,
+      "anchor_min_residue": 0,
+      "anchor_nodes": [
+        "[0,4]",
+        "[2,17]",
+        "[8,18]"
+      ],
+      "anchor_residue_count": 5,
+      "anchor_sum_mod15": 4,
+      "branch_anchor_position": 2,
+      "first_anchor_min_col": 0,
+      "first_anchor_sum_mod15": 4,
+      "index": 0,
+      "last_anchor_min_col": 8,
+      "shell": "branch"
+    },
+    {
+      "anchor_max_col": 24,
+      "anchor_max_residue": 12,
+      "anchor_min_col": 4,
+      "anchor_min_residue": 4,
+      "anchor_nodes": [
+        "[23,24]",
+        "[7,12]",
+        "[4,5]"
+      ],
+      "anchor_residue_count": 6,
+      "anchor_sum_mod15": 0,
+      "branch_anchor_position": -1,
+      "first_anchor_min_col": 23,
+      "first_anchor_sum_mod15": 2,
+      "index": 1,
+      "last_anchor_min_col": 4,
+      "shell": "ordinary"
+    },
+    {
+      "anchor_max_col": 29,
+      "anchor_max_residue": 14,
+      "anchor_min_col": 0,
+      "anchor_min_residue": 0,
+      "anchor_nodes": [
+        "[28,29]",
+        "[0,2]",
+        "[4,9]"
+      ],
+      "anchor_residue_count": 6,
+      "anchor_sum_mod15": 12,
+      "branch_anchor_position": -1,
+      "first_anchor_min_col": 28,
+      "first_anchor_sum_mod15": 12,
+      "index": 2,
+      "last_anchor_min_col": 4,
+      "shell": "ordinary"
+    },
+    {
+      "anchor_max_col": 18,
+      "anchor_max_residue": 13,
+      "anchor_min_col": 7,
+      "anchor_min_residue": 2,
+      "anchor_nodes": [
+        "[7,10]",
+        "[8,18]",
+        "[13,17]"
+      ],
+      "anchor_residue_count": 6,
+      "anchor_sum_mod15": 13,
+      "branch_anchor_position": 1,
+      "first_anchor_min_col": 7,
+      "first_anchor_sum_mod15": 2,
+      "index": 3,
+      "last_anchor_min_col": 13,
+      "shell": "branch"
+    }
+  ],
+  "anchor_rank_method_count": 20,
+  "audit_id": "027",
+  "best_selector_tests_first_80": [
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_max_residue_asc",
+      "c_rank_method": "c_entry_asc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_entry_asc__x__anchor_max_residue_asc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_sum_mod15_asc",
+      "c_rank_method": "c_entry_asc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_entry_asc__x__anchor_sum_mod15_asc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_min_col_asc",
+      "c_rank_method": "c_entry_asc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_entry_asc__x__first_anchor_min_col_asc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_max_residue_desc",
+      "c_rank_method": "c_entry_desc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_entry_desc__x__anchor_max_residue_desc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_sum_mod15_desc",
+      "c_rank_method": "c_entry_desc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_entry_desc__x__anchor_sum_mod15_desc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_min_col_desc",
+      "c_rank_method": "c_entry_desc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_entry_desc__x__first_anchor_min_col_desc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_col_asc",
+      "c_rank_method": "c_exit_asc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_exit_asc__x__anchor_min_col_asc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_residue_asc",
+      "c_rank_method": "c_exit_asc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_exit_asc__x__anchor_min_residue_asc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_sum_mod15_desc",
+      "c_rank_method": "c_exit_asc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_exit_asc__x__first_anchor_sum_mod15_desc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_col_desc",
+      "c_rank_method": "c_exit_desc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_exit_desc__x__anchor_min_col_desc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_residue_desc",
+      "c_rank_method": "c_exit_desc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_exit_desc__x__anchor_min_residue_desc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_sum_mod15_asc",
+      "c_rank_method": "c_exit_desc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_exit_desc__x__first_anchor_sum_mod15_asc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_col_asc",
+      "c_rank_method": "c_min_asc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_min_asc__x__anchor_min_col_asc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_residue_asc",
+      "c_rank_method": "c_min_asc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_min_asc__x__anchor_min_residue_asc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_sum_mod15_desc",
+      "c_rank_method": "c_min_asc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_min_asc__x__first_anchor_sum_mod15_desc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_col_desc",
+      "c_rank_method": "c_min_desc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_min_desc__x__anchor_min_col_desc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_residue_desc",
+      "c_rank_method": "c_min_desc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_min_desc__x__anchor_min_residue_desc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_sum_mod15_asc",
+      "c_rank_method": "c_min_desc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_min_desc__x__first_anchor_sum_mod15_asc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_col_asc",
+      "c_rank_method": "c_sum_mod15_asc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_sum_mod15_asc__x__anchor_min_col_asc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_residue_asc",
+      "c_rank_method": "c_sum_mod15_asc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_sum_mod15_asc__x__anchor_min_residue_asc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_sum_mod15_desc",
+      "c_rank_method": "c_sum_mod15_asc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_sum_mod15_asc__x__first_anchor_sum_mod15_desc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_col_desc",
+      "c_rank_method": "c_sum_mod15_desc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_sum_mod15_desc__x__anchor_min_col_desc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_residue_desc",
+      "c_rank_method": "c_sum_mod15_desc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_sum_mod15_desc__x__anchor_min_residue_desc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_sum_mod15_asc",
+      "c_rank_method": "c_sum_mod15_desc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_sum_mod15_desc__x__first_anchor_sum_mod15_asc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_col_asc",
+      "c_rank_method": "c_entry_asc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        2,
+        5
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        1,
+        6
+      ],
+      "name": "c_entry_asc__x__anchor_min_col_asc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_col_desc",
+      "c_rank_method": "c_entry_asc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        11,
+        12
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        8,
+        15
+      ],
+      "name": "c_entry_asc__x__anchor_min_col_desc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_residue_asc",
+      "c_rank_method": "c_entry_asc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        2,
+        5
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        1,
+        6
+      ],
+      "name": "c_entry_asc__x__anchor_min_residue_asc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_residue_desc",
+      "c_rank_method": "c_entry_asc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        11,
+        12
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        8,
+        15
+      ],
+      "name": "c_entry_asc__x__anchor_min_residue_desc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_sum_mod15_asc",
+      "c_rank_method": "c_entry_asc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        11,
+        12
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        8,
+        15
+      ],
+      "name": "c_entry_asc__x__first_anchor_sum_mod15_asc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_sum_mod15_desc",
+      "c_rank_method": "c_entry_asc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        2,
+        5
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        1,
+        6
+      ],
+      "name": "c_entry_asc__x__first_anchor_sum_mod15_desc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_col_asc",
+      "c_rank_method": "c_entry_desc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        11,
+        12
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        8,
+        15
+      ],
+      "name": "c_entry_desc__x__anchor_min_col_asc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_col_desc",
+      "c_rank_method": "c_entry_desc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        2,
+        5
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        1,
+        6
+      ],
+      "name": "c_entry_desc__x__anchor_min_col_desc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_residue_asc",
+      "c_rank_method": "c_entry_desc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        11,
+        12
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        8,
+        15
+      ],
+      "name": "c_entry_desc__x__anchor_min_residue_asc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_residue_desc",
+      "c_rank_method": "c_entry_desc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        2,
+        5
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        1,
+        6
+      ],
+      "name": "c_entry_desc__x__anchor_min_residue_desc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_sum_mod15_asc",
+      "c_rank_method": "c_entry_desc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        2,
+        5
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        1,
+        6
+      ],
+      "name": "c_entry_desc__x__first_anchor_sum_mod15_asc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_sum_mod15_desc",
+      "c_rank_method": "c_entry_desc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        11,
+        12
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        8,
+        15
+      ],
+      "name": "c_entry_desc__x__first_anchor_sum_mod15_desc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_max_residue_asc",
+      "c_rank_method": "c_exit_asc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        2,
+        5
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        1,
+        6
+      ],
+      "name": "c_exit_asc__x__anchor_max_residue_asc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_max_residue_desc",
+      "c_rank_method": "c_exit_asc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        11,
+        12
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        8,
+        15
+      ],
+      "name": "c_exit_asc__x__anchor_max_residue_desc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_sum_mod15_asc",
+      "c_rank_method": "c_exit_asc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        2,
+        5
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        1,
+        6
+      ],
+      "name": "c_exit_asc__x__anchor_sum_mod15_asc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_sum_mod15_desc",
+      "c_rank_method": "c_exit_asc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        11,
+        12
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        8,
+        15
+      ],
+      "name": "c_exit_asc__x__anchor_sum_mod15_desc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_min_col_asc",
+      "c_rank_method": "c_exit_asc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        2,
+        5
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        1,
+        6
+      ],
+      "name": "c_exit_asc__x__first_anchor_min_col_asc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_min_col_desc",
+      "c_rank_method": "c_exit_asc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        11,
+        12
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        8,
+        15
+      ],
+      "name": "c_exit_asc__x__first_anchor_min_col_desc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_max_residue_asc",
+      "c_rank_method": "c_exit_desc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        11,
+        12
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        8,
+        15
+      ],
+      "name": "c_exit_desc__x__anchor_max_residue_asc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_max_residue_desc",
+      "c_rank_method": "c_exit_desc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        2,
+        5
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        1,
+        6
+      ],
+      "name": "c_exit_desc__x__anchor_max_residue_desc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_sum_mod15_asc",
+      "c_rank_method": "c_exit_desc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        11,
+        12
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        8,
+        15
+      ],
+      "name": "c_exit_desc__x__anchor_sum_mod15_asc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_sum_mod15_desc",
+      "c_rank_method": "c_exit_desc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        2,
+        5
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        1,
+        6
+      ],
+      "name": "c_exit_desc__x__anchor_sum_mod15_desc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_min_col_asc",
+      "c_rank_method": "c_exit_desc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        11,
+        12
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        8,
+        15
+      ],
+      "name": "c_exit_desc__x__first_anchor_min_col_asc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_min_col_desc",
+      "c_rank_method": "c_exit_desc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        2,
+        5
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        1,
+        6
+      ],
+      "name": "c_exit_desc__x__first_anchor_min_col_desc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_max_residue_asc",
+      "c_rank_method": "c_min_asc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        2,
+        5
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        1,
+        6
+      ],
+      "name": "c_min_asc__x__anchor_max_residue_asc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_max_residue_desc",
+      "c_rank_method": "c_min_asc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        11,
+        12
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        8,
+        15
+      ],
+      "name": "c_min_asc__x__anchor_max_residue_desc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_sum_mod15_asc",
+      "c_rank_method": "c_min_asc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        2,
+        5
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        1,
+        6
+      ],
+      "name": "c_min_asc__x__anchor_sum_mod15_asc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_sum_mod15_desc",
+      "c_rank_method": "c_min_asc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        11,
+        12
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        8,
+        15
+      ],
+      "name": "c_min_asc__x__anchor_sum_mod15_desc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_min_col_asc",
+      "c_rank_method": "c_min_asc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        2,
+        5
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        1,
+        6
+      ],
+      "name": "c_min_asc__x__first_anchor_min_col_asc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_min_col_desc",
+      "c_rank_method": "c_min_asc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        11,
+        12
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        8,
+        15
+      ],
+      "name": "c_min_asc__x__first_anchor_min_col_desc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_max_residue_asc",
+      "c_rank_method": "c_min_desc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        11,
+        12
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        8,
+        15
+      ],
+      "name": "c_min_desc__x__anchor_max_residue_asc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_max_residue_desc",
+      "c_rank_method": "c_min_desc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        2,
+        5
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        1,
+        6
+      ],
+      "name": "c_min_desc__x__anchor_max_residue_desc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_sum_mod15_asc",
+      "c_rank_method": "c_min_desc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        11,
+        12
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        8,
+        15
+      ],
+      "name": "c_min_desc__x__anchor_sum_mod15_asc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_sum_mod15_desc",
+      "c_rank_method": "c_min_desc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        2,
+        5
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        1,
+        6
+      ],
+      "name": "c_min_desc__x__anchor_sum_mod15_desc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_min_col_asc",
+      "c_rank_method": "c_min_desc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        11,
+        12
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        8,
+        15
+      ],
+      "name": "c_min_desc__x__first_anchor_min_col_asc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_min_col_desc",
+      "c_rank_method": "c_min_desc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        2,
+        5
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        1,
+        6
+      ],
+      "name": "c_min_desc__x__first_anchor_min_col_desc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_max_residue_asc",
+      "c_rank_method": "c_sum_mod15_asc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        2,
+        5
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        1,
+        6
+      ],
+      "name": "c_sum_mod15_asc__x__anchor_max_residue_asc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_max_residue_desc",
+      "c_rank_method": "c_sum_mod15_asc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        11,
+        12
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        8,
+        15
+      ],
+      "name": "c_sum_mod15_asc__x__anchor_max_residue_desc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_sum_mod15_asc",
+      "c_rank_method": "c_sum_mod15_asc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        2,
+        5
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        1,
+        6
+      ],
+      "name": "c_sum_mod15_asc__x__anchor_sum_mod15_asc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_sum_mod15_desc",
+      "c_rank_method": "c_sum_mod15_asc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        11,
+        12
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        8,
+        15
+      ],
+      "name": "c_sum_mod15_asc__x__anchor_sum_mod15_desc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_min_col_asc",
+      "c_rank_method": "c_sum_mod15_asc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        2,
+        5
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        1,
+        6
+      ],
+      "name": "c_sum_mod15_asc__x__first_anchor_min_col_asc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_min_col_desc",
+      "c_rank_method": "c_sum_mod15_asc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        11,
+        12
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        8,
+        15
+      ],
+      "name": "c_sum_mod15_asc__x__first_anchor_min_col_desc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_max_residue_asc",
+      "c_rank_method": "c_sum_mod15_desc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        11,
+        12
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        8,
+        15
+      ],
+      "name": "c_sum_mod15_desc__x__anchor_max_residue_asc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_max_residue_desc",
+      "c_rank_method": "c_sum_mod15_desc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        2,
+        5
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        1,
+        6
+      ],
+      "name": "c_sum_mod15_desc__x__anchor_max_residue_desc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_sum_mod15_asc",
+      "c_rank_method": "c_sum_mod15_desc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        11,
+        12
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        8,
+        15
+      ],
+      "name": "c_sum_mod15_desc__x__anchor_sum_mod15_asc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_sum_mod15_desc",
+      "c_rank_method": "c_sum_mod15_desc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        2,
+        5
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        1,
+        6
+      ],
+      "name": "c_sum_mod15_desc__x__anchor_sum_mod15_desc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_min_col_asc",
+      "c_rank_method": "c_sum_mod15_desc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        11,
+        12
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        8,
+        15
+      ],
+      "name": "c_sum_mod15_desc__x__first_anchor_min_col_asc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_min_col_desc",
+      "c_rank_method": "c_sum_mod15_desc",
+      "exact": false,
+      "false_positive": 2,
+      "false_positive_candidate_indices": [
+        2,
+        5
+      ],
+      "miss": 2,
+      "miss_candidate_indices": [
+        1,
+        6
+      ],
+      "name": "c_sum_mod15_desc__x__first_anchor_min_col_desc",
+      "true_negative": 10,
+      "true_positive": 2
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_max_residue_desc",
+      "c_rank_method": "c_entry_asc",
+      "exact": false,
+      "false_positive": 4,
+      "false_positive_candidate_indices": [
+        2,
+        5,
+        11,
+        12
+      ],
+      "miss": 4,
+      "miss_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "name": "c_entry_asc__x__anchor_max_residue_desc",
+      "true_negative": 8,
+      "true_positive": 0
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_sum_mod15_desc",
+      "c_rank_method": "c_entry_asc",
+      "exact": false,
+      "false_positive": 4,
+      "false_positive_candidate_indices": [
+        2,
+        5,
+        11,
+        12
+      ],
+      "miss": 4,
+      "miss_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "name": "c_entry_asc__x__anchor_sum_mod15_desc",
+      "true_negative": 8,
+      "true_positive": 0
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_min_col_desc",
+      "c_rank_method": "c_entry_asc",
+      "exact": false,
+      "false_positive": 4,
+      "false_positive_candidate_indices": [
+        2,
+        5,
+        11,
+        12
+      ],
+      "miss": 4,
+      "miss_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "name": "c_entry_asc__x__first_anchor_min_col_desc",
+      "true_negative": 8,
+      "true_positive": 0
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_max_residue_asc",
+      "c_rank_method": "c_entry_desc",
+      "exact": false,
+      "false_positive": 4,
+      "false_positive_candidate_indices": [
+        2,
+        5,
+        11,
+        12
+      ],
+      "miss": 4,
+      "miss_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "name": "c_entry_desc__x__anchor_max_residue_asc",
+      "true_negative": 8,
+      "true_positive": 0
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_sum_mod15_asc",
+      "c_rank_method": "c_entry_desc",
+      "exact": false,
+      "false_positive": 4,
+      "false_positive_candidate_indices": [
+        2,
+        5,
+        11,
+        12
+      ],
+      "miss": 4,
+      "miss_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "name": "c_entry_desc__x__anchor_sum_mod15_asc",
+      "true_negative": 8,
+      "true_positive": 0
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_min_col_asc",
+      "c_rank_method": "c_entry_desc",
+      "exact": false,
+      "false_positive": 4,
+      "false_positive_candidate_indices": [
+        2,
+        5,
+        11,
+        12
+      ],
+      "miss": 4,
+      "miss_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "name": "c_entry_desc__x__first_anchor_min_col_asc",
+      "true_negative": 8,
+      "true_positive": 0
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_col_desc",
+      "c_rank_method": "c_exit_asc",
+      "exact": false,
+      "false_positive": 4,
+      "false_positive_candidate_indices": [
+        2,
+        5,
+        11,
+        12
+      ],
+      "miss": 4,
+      "miss_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "name": "c_exit_asc__x__anchor_min_col_desc",
+      "true_negative": 8,
+      "true_positive": 0
+    },
+    {
+      "accepted_candidate_indices": [
+        2,
+        5,
+        11,
+        12
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_residue_desc",
+      "c_rank_method": "c_exit_asc",
+      "exact": false,
+      "false_positive": 4,
+      "false_positive_candidate_indices": [
+        2,
+        5,
+        11,
+        12
+      ],
+      "miss": 4,
+      "miss_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "name": "c_exit_asc__x__anchor_min_residue_desc",
+      "true_negative": 8,
+      "true_positive": 0
+    }
+  ],
+  "boundary": "This is still a reduced-universe selector over the 16 candidates. It derives shell labels and shell ranks from native summaries visible in the reduced register shadow, but it does not yet derive the full role-labeled shared_B edge universe from first principles and does not close Gap A.",
+  "c_items": [
+    {
+      "c_entry": 11,
+      "c_exit": 14,
+      "c_max": 14,
+      "c_mid": 2,
+      "c_min": 2,
+      "c_path": [
+        11,
+        2,
+        14,
+        11
+      ],
+      "c_span": 12,
+      "c_sum_mod15": 12,
+      "c_values": [
+        2,
+        11,
+        14
+      ],
+      "index": 0,
+      "shell": "ordinary"
+    },
+    {
+      "c_entry": 13,
+      "c_exit": 10,
+      "c_max": 13,
+      "c_mid": 1,
+      "c_min": 1,
+      "c_path": [
+        13,
+        1,
+        10,
+        13
+      ],
+      "c_span": 12,
+      "c_sum_mod15": 9,
+      "c_values": [
+        1,
+        10,
+        13
+      ],
+      "index": 1,
+      "shell": "ordinary"
+    },
+    {
+      "c_entry": 2,
+      "c_exit": 0,
+      "c_max": 5,
+      "c_mid": 5,
+      "c_min": 0,
+      "c_path": [
+        2,
+        5,
+        0,
+        2
+      ],
+      "c_span": 5,
+      "c_sum_mod15": 7,
+      "c_values": [
+        0,
+        2,
+        5
+      ],
+      "index": 2,
+      "shell": "branch"
+    },
+    {
+      "c_entry": 4,
+      "c_exit": 2,
+      "c_max": 5,
+      "c_mid": 5,
+      "c_min": 2,
+      "c_path": [
+        4,
+        5,
+        2,
+        4
+      ],
+      "c_span": 3,
+      "c_sum_mod15": 11,
+      "c_values": [
+        2,
+        4,
+        5
+      ],
+      "index": 3,
+      "shell": "branch"
+    }
+  ],
+  "c_rank_method_count": 14,
+  "candidate_count": 16,
+  "exact_selector_count": 24,
+  "exact_selectors_first_80": [
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_max_residue_asc",
+      "c_rank_method": "c_entry_asc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_entry_asc__x__anchor_max_residue_asc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_sum_mod15_asc",
+      "c_rank_method": "c_entry_asc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_entry_asc__x__anchor_sum_mod15_asc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_min_col_asc",
+      "c_rank_method": "c_entry_asc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_entry_asc__x__first_anchor_min_col_asc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_max_residue_desc",
+      "c_rank_method": "c_entry_desc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_entry_desc__x__anchor_max_residue_desc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_sum_mod15_desc",
+      "c_rank_method": "c_entry_desc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_entry_desc__x__anchor_sum_mod15_desc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_min_col_desc",
+      "c_rank_method": "c_entry_desc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_entry_desc__x__first_anchor_min_col_desc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_col_asc",
+      "c_rank_method": "c_exit_asc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_exit_asc__x__anchor_min_col_asc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_residue_asc",
+      "c_rank_method": "c_exit_asc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_exit_asc__x__anchor_min_residue_asc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_sum_mod15_desc",
+      "c_rank_method": "c_exit_asc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_exit_asc__x__first_anchor_sum_mod15_desc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_col_desc",
+      "c_rank_method": "c_exit_desc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_exit_desc__x__anchor_min_col_desc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_residue_desc",
+      "c_rank_method": "c_exit_desc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_exit_desc__x__anchor_min_residue_desc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_sum_mod15_asc",
+      "c_rank_method": "c_exit_desc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_exit_desc__x__first_anchor_sum_mod15_asc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_col_asc",
+      "c_rank_method": "c_min_asc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_min_asc__x__anchor_min_col_asc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_residue_asc",
+      "c_rank_method": "c_min_asc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_min_asc__x__anchor_min_residue_asc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_sum_mod15_desc",
+      "c_rank_method": "c_min_asc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_min_asc__x__first_anchor_sum_mod15_desc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_col_desc",
+      "c_rank_method": "c_min_desc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_min_desc__x__anchor_min_col_desc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_residue_desc",
+      "c_rank_method": "c_min_desc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_min_desc__x__anchor_min_residue_desc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_sum_mod15_asc",
+      "c_rank_method": "c_min_desc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_min_desc__x__first_anchor_sum_mod15_asc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_col_asc",
+      "c_rank_method": "c_sum_mod15_asc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_sum_mod15_asc__x__anchor_min_col_asc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_residue_asc",
+      "c_rank_method": "c_sum_mod15_asc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_sum_mod15_asc__x__anchor_min_residue_asc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_sum_mod15_desc",
+      "c_rank_method": "c_sum_mod15_asc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_sum_mod15_asc__x__first_anchor_sum_mod15_desc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_col_desc",
+      "c_rank_method": "c_sum_mod15_desc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_sum_mod15_desc__x__anchor_min_col_desc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "anchor_min_residue_desc",
+      "c_rank_method": "c_sum_mod15_desc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_sum_mod15_desc__x__anchor_min_residue_desc",
+      "true_negative": 12,
+      "true_positive": 4
+    },
+    {
+      "accepted_candidate_indices": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "accepted_count": 4,
+      "anchor_rank_method": "first_anchor_sum_mod15_asc",
+      "c_rank_method": "c_sum_mod15_desc",
+      "exact": true,
+      "false_positive": 0,
+      "false_positive_candidate_indices": [],
+      "miss": 0,
+      "miss_candidate_indices": [],
+      "name": "c_sum_mod15_desc__x__first_anchor_sum_mod15_asc",
+      "true_negative": 12,
+      "true_positive": 4
+    }
+  ],
+  "input_024_csv": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/csv/sharedB_selection_matrix_024.v1.csv",
+  "input_024_json": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/sharedB_selection_matrix_024.v1.json",
+  "input_026": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/native_shell_label_derivation_026.v1.json",
+  "interpretation": "This audit derives the shell-rank part of the 025 radial phase-lock selector from simple native summaries rather than from the selected permutation. The C rank is obtained by ordering C-cycles within each derived shell by their entry value c_path[0] / XY.from_C. The anchor rank is obtained by ordering anchor-cycles within each derived shell by anchor_sum_mod15. Combined with the native shell labels from 026, this shell-rank lock recovers exactly the four selected candidates.",
+  "native_rank_derivation_pass": true,
+  "selected_count": 4,
+  "selector_test_count": 96,
+  "status": "native_shell_rank_derivation_recorded",
+  "target_anchor_rank_details": {
+    "branch": [
+      {
+        "index": 0,
+        "key": 4,
+        "rank": 0
+      },
+      {
+        "index": 3,
+        "key": 13,
+        "rank": 1
+      }
+    ],
+    "ordinary": [
+      {
+        "index": 1,
+        "key": 0,
+        "rank": 0
+      },
+      {
+        "index": 2,
+        "key": 12,
+        "rank": 1
+      }
+    ]
+  },
+  "target_c_rank_details": {
+    "branch": [
+      {
+        "index": 2,
+        "key": 2,
+        "rank": 0
+      },
+      {
+        "index": 3,
+        "key": 4,
+        "rank": 1
+      }
+    ],
+    "ordinary": [
+      {
+        "index": 0,
+        "key": 11,
+        "rank": 0
+      },
+      {
+        "index": 1,
+        "key": 13,
+        "rank": 1
+      }
+    ]
+  },
+  "target_native_rank_selector": {
+    "accepted_candidate_indices": [
+      1,
+      6,
+      8,
+      15
+    ],
+    "accepted_count": 4,
+    "anchor_rank_method": "anchor_sum_mod15_asc",
+    "c_rank_method": "c_entry_asc",
+    "exact": true,
+    "false_positive": 0,
+    "false_positive_candidate_indices": [],
+    "miss": 0,
+    "miss_candidate_indices": [],
+    "name": "c_entry_asc__x__anchor_sum_mod15_asc",
+    "true_negative": 12,
+    "true_positive": 4
+  }
+}
