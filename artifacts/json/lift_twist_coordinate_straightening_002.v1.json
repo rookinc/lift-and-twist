@@ -1,0 +1,129 @@
+{
+  "anchor_readout_order": [
+    "B0",
+    "O0",
+    "O1",
+    "B1"
+  ],
+  "audit_id": "002",
+  "boundary": "This proves coordinate straightening for the copied Project 21 reduced universe. It does not derive the reduced 16-candidate universe itself and does not close Gap A.",
+  "c_readout_order": [
+    "O0",
+    "O1",
+    "B0",
+    "B1"
+  ],
+  "claim": "The visible selector permutation [1,2,0,3] is induced by identity in lifted shell/rank coordinates. The C readout orders hidden states as O0,O1,B0,B1; the anchor readout orders the same states as B0,O0,O1,B1. Therefore the hidden identity map appears visibly as [1,2,0,3] = (0 1 2)(3).",
+  "hidden_identity_all_match": true,
+  "induced_visible_permutation": {
+    "0": 1,
+    "1": 2,
+    "2": 0,
+    "3": 3
+  },
+  "induced_visible_permutation_list": [
+    1,
+    2,
+    0,
+    3
+  ],
+  "inputs": {
+    "024": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/22-lift-and-twist/source/project21_artifacts/json/sharedB_selection_matrix_024.v1.json",
+    "026": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/22-lift-and-twist/source/project21_artifacts/json/native_shell_label_derivation_026.v1.json",
+    "027": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/22-lift-and-twist/source/project21_artifacts/json/native_shell_rank_derivation_027.v1.json",
+    "028": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/22-lift-and-twist/source/project21_artifacts/json/reduced_universe_shell_rank_theorem_028.v1.json"
+  },
+  "permutation_cycles": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3
+    ]
+  ],
+  "project21_028_actual_selected": [
+    1,
+    6,
+    8,
+    15
+  ],
+  "project21_028_predicted_selected": [
+    1,
+    6,
+    8,
+    15
+  ],
+  "project21_028_theorem_pass": true,
+  "readout_state_sets_match": true,
+  "status": "lift_twist_coordinate_straightening_recorded",
+  "straightening_rows": [
+    {
+      "anchor_rank": 0,
+      "anchor_shell": "ordinary",
+      "anchor_state": "O0",
+      "c_rank": 0,
+      "c_row": 0,
+      "c_shell": "ordinary",
+      "c_state": "O0",
+      "hidden_identity_match": true,
+      "induced_col_from_hidden_identity": 1,
+      "visible_matches_induced": true,
+      "visible_selected_col": 1
+    },
+    {
+      "anchor_rank": 1,
+      "anchor_shell": "ordinary",
+      "anchor_state": "O1",
+      "c_rank": 1,
+      "c_row": 1,
+      "c_shell": "ordinary",
+      "c_state": "O1",
+      "hidden_identity_match": true,
+      "induced_col_from_hidden_identity": 2,
+      "visible_matches_induced": true,
+      "visible_selected_col": 2
+    },
+    {
+      "anchor_rank": 0,
+      "anchor_shell": "branch",
+      "anchor_state": "B0",
+      "c_rank": 0,
+      "c_row": 2,
+      "c_shell": "branch",
+      "c_state": "B0",
+      "hidden_identity_match": true,
+      "induced_col_from_hidden_identity": 0,
+      "visible_matches_induced": true,
+      "visible_selected_col": 0
+    },
+    {
+      "anchor_rank": 1,
+      "anchor_shell": "branch",
+      "anchor_state": "B1",
+      "c_rank": 1,
+      "c_row": 3,
+      "c_shell": "branch",
+      "c_state": "B1",
+      "hidden_identity_match": true,
+      "induced_col_from_hidden_identity": 3,
+      "visible_matches_induced": true,
+      "visible_selected_col": 3
+    }
+  ],
+  "theorem_pass": true,
+  "visible_matches_induced": true,
+  "visible_permutation_list": [
+    1,
+    2,
+    0,
+    3
+  ],
+  "visible_selected_col_by_row": {
+    "0": 1,
+    "1": 2,
+    "2": 0,
+    "3": 3
+  }
+}
